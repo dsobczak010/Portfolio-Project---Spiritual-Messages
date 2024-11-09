@@ -8,7 +8,7 @@ This is a spiritual quote generator. It will randomly pick from 100 different qu
 - Develop locally on your computer
 
 ## Demo
-You can check out a live preview of this project here: [Spiritual Message]
+You can check out a live preview of this project here: [Spiritual Message](https://dsobczak010.github.io/Portfolio-Project_Spiritual-Messages/)
 
 ---
 This project was completed as part of the Codecademy Full-Stack Engineer career path. It serves as a practical exercise to apply the concepts learned in JavaScript programming.
