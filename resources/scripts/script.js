@@ -71,5 +71,15 @@ const quotes = [
     { text: "The most important aspect of love is not in giving or receiving: it's in the being.", author: "Ram Dass" }
 ] 
 
-const rand = Math.floor(Math.random() * 100);
-console.log('"' + quotes[rand].text + '"' + " -" + quotes[rand].author);
+const messageArea = document.getElementById("message-text");
+
+const randQuote = () => {
+    let rand = Math.floor(Math.random() * 64);
+    let quote = '"' + quotes[rand].text + '"' + " <br><br>-" + quotes[rand].author;
+    messageArea.innerHTML = quote;
+}
+
+randQuote();
+
+const button = document.getElementById("btn-generate");
+button.addEventListener("click", randQuote);
